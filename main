@@ -85,7 +85,7 @@ MainTab:CreateButton({
 
 
 
-   local ThemeTab = Window:CreateTab("Theme Changer", 98538057426036)
+   local ThemeTab = Window:CreateTab("Theme Changer", 98327578903380)
    local ThemeSection = ThemeTab:CreateSection("Select a Theme")
 
    for _, themeName in ipairs(ThemeList) do
