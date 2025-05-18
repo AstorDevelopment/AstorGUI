@@ -84,7 +84,7 @@ MainTab:CreateButton({
    })
 
 
-   -- Theme Tab
+
    local ThemeTab = Window:CreateTab("Theme Changer", 4483362458)
    local ThemeSection = ThemeTab:CreateSection("Select a Theme")
 
