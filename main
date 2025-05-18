@@ -1,9 +1,9 @@
 local function createWindow(theme)
    local RF = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-   local Window = RF:CreateWindow({
+   local Win = RF:CreateWindow({
       Name = "Astor Hub",
-      Icon = 0,
+      Icon = "chevrons-left-right",
       LoadingTitle = "AstorGUI",
       LoadingSubtitle = "by Faby",
       Theme = theme,
@@ -32,22 +32,22 @@ local function createWindow(theme)
    })
 
    RF:LoadConfiguration()
-   return RF, Window
+   return RF, Win
 end
 
 local ThemeList = {"Default", "AmberGlow", "Amethyst", "Bloom", "DarkBlue", "Green", "Light", "Ocean", "Serenity"}
 
-local Rayfield, Window = createWindow("Ocean")
+local Rayfield, Window = createWindow("Default")
 
 local function populateUI()
    -- Main Tab
-   local MainTab = Window:CreateTab("Main", 4483362458)
-   local MainSection = MainTab:CreateSection("Main Controls")
+   local MainTab = Window:CreateTab("Admins", 4483362458)
+   local MainSection = MainTab:CreateSection("Main Admin UIs")
 
    MainTab:CreateButton({
-      Name = "Hello Button",
+      Name = "Activate IY",
       Callback = function()
-         print("Hello world!")
+         loadstring(game:HttpGet(""))()
       end
    })
 
@@ -62,7 +62,7 @@ local function populateUI()
             Rayfield:Destroy()
             wait(0.2)
             Rayfield, Window = createWindow(themeName)
-            populateUI()
+            populateUI() 
          end
       })
    end
