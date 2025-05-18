@@ -60,6 +60,30 @@ MainTab:CreateButton({
    })
 
 
+MainTab:CreateButton({
+      Name = "Activate CMD-X",
+      Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/admins/CMD-X"))()
+      end
+   })
+
+
+MainTab:CreateButton({
+      Name = "Activate Homebrew",
+      Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/admins/Homebrew"))()
+      end
+   })
+
+
+MainTab:CreateButton({
+      Name = "Activate AstorADM (WIP)",
+      Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/admins/AstorADM"))()
+      end
+   })
+
+
    -- Theme Tab
    local ThemeTab = Window:CreateTab("Theme Changer", 4483362458)
    local ThemeSection = ThemeTab:CreateSection("Select a Theme")
