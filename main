@@ -41,7 +41,7 @@ local Rayfield, Window = createWindow("Default")
 
 local function populateUI()
    -- Main Tab
-   local MainTab = Window:CreateTab("Admins", 85854195570555)
+   local MainTab = Window:CreateTab("Admins", 4483362458)
    local MainSection = MainTab:CreateSection("Main Admin UIs")
 
    MainTab:CreateButton({
@@ -85,8 +85,8 @@ MainTab:CreateButton({
 
 
 
-   local ThemeTab = Window:CreateTab("Theme Changer", 98327578903380)
-   local ThemeSection = ThemeTab:CreateSection("Select a Theme")
+   local ThemeTab = Window:CreateTab("Theme Changer", 4483362458)
+   local ThemeSection = ThemeTab:CreateSection("Change Themes")
 
    for _, themeName in ipairs(ThemeList) do
       ThemeTab:CreateButton({
