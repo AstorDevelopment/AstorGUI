@@ -35,13 +35,13 @@ local function createWindow(theme)
    return RF, Win
 end
 
-local ThemeList = {"Default", "Amber Glow", "Amethyst", "Bloom", "Dark Blue", "Green", "Light", "Ocean", "Serenity"}
+local ThemeList = {"Default", "AmberGlow", "Amethyst", "Bloom", "DarkBlue", "Green", "Light", "Ocean", "Serenity"}
 
 local Rayfield, Window = createWindow("Default")
 
 local function populateUI()
    -- Main Tab
-   local MainTab = Window:CreateTab("Admins", 4483362458)
+   local MainTab = Window:CreateTab("Admins", 85854195570555)
    local MainSection = MainTab:CreateSection("Main Admin UIs")
 
    MainTab:CreateButton({
