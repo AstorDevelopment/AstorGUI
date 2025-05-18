@@ -51,6 +51,15 @@ local function populateUI()
       end
    })
 
+
+MainTab:CreateButton({
+      Name = "Activate VaultsScripts",
+      Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/main/VaultScripts"))()
+      end
+   })
+
+
    -- Theme Tab
    local ThemeTab = Window:CreateTab("Theme Changer", 4483362458)
    local ThemeSection = ThemeTab:CreateSection("Select a Theme")
