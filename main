@@ -47,7 +47,7 @@ local function populateUI()
    MainTab:CreateButton({
       Name = "Activate IY",
       Callback = function()
-         loadstring(game:HttpGet(""))()
+         loadstring(game:HttpGet("https://github.com/AstorDevelopment/AstorGUI/blob/main/IY"))()
       end
    })
 
