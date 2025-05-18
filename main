@@ -35,7 +35,7 @@ local function createWindow(theme)
    return RF, Win
 end
 
-local ThemeList = {"Default", "AmberGlow", "Amethyst", "Bloom", "DarkBlue", "Green", "Light", "Ocean", "Serenity"}
+local ThemeList = {"Default", "Amber Glow", "Amethyst", "Bloom", "Dark Blue", "Green", "Light", "Ocean", "Serenity"}
 
 local Rayfield, Window = createWindow("Default")
 
