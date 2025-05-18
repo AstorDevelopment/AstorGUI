@@ -47,7 +47,7 @@ local function populateUI()
    MainTab:CreateButton({
       Name = "Activate IY",
       Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/main/IY"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/admins/IY"))()
       end
    })
 
@@ -55,7 +55,7 @@ local function populateUI()
 MainTab:CreateButton({
       Name = "Activate VaultsScripts",
       Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/main/VaultScripts"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/admins/VaultScripts"))()
       end
    })
 
