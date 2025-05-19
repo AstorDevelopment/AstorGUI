@@ -1,1 +1,1 @@
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub-Old/refs/heads/main/.lua"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jLn0n/beckdeer-skenner/main/src/main.lua"))()
