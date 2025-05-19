@@ -95,9 +95,9 @@ MainTab:CreateButton({
 
 
 AnalyzingTab:CreateButton({
-         Name = "Turtle Remote Spy",
+         Name = "SimpleSpy",
          Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/Turtle%20Remote%20Spy"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/SimpleSpy"))()
          end
       })
 
