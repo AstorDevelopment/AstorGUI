@@ -84,7 +84,7 @@ MainTab:CreateButton({
    })
 
    local AnalyzingTab = Window:CreateTab("Analyzing Tools", 4483362458)
-   local AnalyzingSection = AnalyzeTab:CreateSection("Tools to analyze games")
+   local AnalyzingSection = AnalyzingTab:CreateSection("Tools to analyze games")
 
     AnalyzingTab:CreateButton({
          Name = "DevEX",
