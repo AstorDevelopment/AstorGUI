@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("raw.githubusercontent.com/Turtle-Brand/Turtle-Spy/refs/heads/main/source.lua")()
