@@ -97,7 +97,7 @@ MainTab:CreateButton({
 AnalyzingTab:CreateButton({
          Name = "Turtle Remote Spy",
          Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/Turtle%20Remote%20Spy")()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/Turtle%20Remote%20Spy"))()
          end
       })
 
@@ -105,7 +105,7 @@ AnalyzingTab:CreateButton({
 AnalyzingTab:CreateButton({
          Name = "Hydroxide",
          Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/Hydroxide")()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/Hydroxide"))()
          end
       })
 
