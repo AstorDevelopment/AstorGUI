@@ -83,7 +83,15 @@ MainTab:CreateButton({
       end
    })
 
+   local AnalyzingTab = Window:CreateTab("Analyzing Tools", 4483362458)
+   local AnalyzingSection = AnalyzeTab:CreateSection("Tools to analyze games")
 
+    AnalyzingTab:CreateButton({
+         Name = "DevEX",
+         Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/DevEX"))()
+         end
+      })
 
    local ThemeTab = Window:CreateTab("Theme Changer", 4483362458)
    local ThemeSection = ThemeTab:CreateSection("Change Themes")
