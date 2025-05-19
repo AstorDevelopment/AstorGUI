@@ -110,6 +110,14 @@ AnalyzingTab:CreateButton({
       })
 
 
+AnalyzingTab:CreateButton({
+         Name = "Backdoor Scanner",
+         Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AstorDevelopment/AstorGUI/refs/heads/analyzingtools/Backdoor%20Scanner"))()
+         end
+      })
+
+
    local ThemeTab = Window:CreateTab("Theme Changer", 4483362458)
    local ThemeSection = ThemeTab:CreateSection("Change Themes")
 
